@@ -18,3 +18,8 @@ Route::get('/send-message', function () {
 
     return 'Message sent to Telegram!';
 });
+
+Route::get('/get-updates', function () {
+    $updates = Telegram::getUpdates();
+    return $updates;
+});
