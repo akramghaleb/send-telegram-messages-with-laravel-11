@@ -8,7 +8,7 @@ Route::get('/', function () {
 });
 
 Route::get('/send-message', function () {
-    $chatId = '5507433802'; // Replace with your chat ID
+    $chatId = '1361928373'; // Replace with your chat ID
     $message = 'Hello, this is a message from Laravel!';
 
     Telegram::sendMessage([
