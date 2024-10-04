@@ -1,25 +1,12 @@
 <?php
 
+use App\Http\Controllers\TelegramController;
 use Illuminate\Support\Facades\Route;
-use Telegram\Bot\Laravel\Facades\Telegram;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/send-message', function () {
-    $chatId = '1361928373'; // Replace with your chat ID
-    $message = 'Hello, this is a message from Laravel!';
+Route::get('/send-message', [TelegramController::class , 'sendMessage'])->name('sendMessage');
 
-    Telegram::sendMessage([
-        'chat_id' => $chatId,
-        'text' => $message,
-    ]);
-
-    return 'Message sent to Telegram!';
-});
-
-Route::get('/get-updates', function () {
-    $updates = Telegram::getUpdates();
-    return $updates;
-});
+Route::get('/get-updates', [TelegramController::class,'getUpdates'])->name('getUpdates');
