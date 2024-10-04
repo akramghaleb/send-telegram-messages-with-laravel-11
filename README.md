@@ -70,7 +70,7 @@ Now that your bot is set up and configured, let's create a route to send message
 ### 3.1 Create a Route
 
 Open the `routes/web.php` file and add the following route:
-```js
+```php
 use Telegram\Bot\Laravel\Facades\Telegram;
 
 Route::get('/send-message', function () {
@@ -91,7 +91,7 @@ Route::get('/send-message', function () {
 To send messages to your chat, you need to know your `chat_id`. To find this, you can use the getUpdates method.
 
 Add another route to `routes/web.php`:
-```js
+```php
 Route::get('/get-updates', function () {
     $updates = Telegram::getUpdates();
     return $updates;
