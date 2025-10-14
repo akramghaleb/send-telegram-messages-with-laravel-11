@@ -1,4 +1,12 @@
-<img src="https://media.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F979iqvt3nsjjg5rjifh8.png" style="aspect-ratio: auto 1000 / 420;" width="1000" height="420" class="crayons-article__cover__image" alt="Cover image for How to Create a Telegram Bot and Send Messages Using Laravel 11">
+<div align="center">
+  <iframe width="1280" height="720"
+    src="https://www.youtube.com/embed/JJLxR_6qSVM"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
 
 # How to Create a Telegram Bot and Send Messages Using Laravel 11
 
@@ -101,3 +109,13 @@ Now, visit http://127.0.0.1:8000/send-message in your browser, replacing 127.0.0
 You’ve successfully created a Telegram bot, obtained an API token, and integrated it into your Laravel 11 application using the irazasyed/telegram-bot-sdk. Now you can build more complex interactions with your bot or expand its capabilities.
 
 For further exploration, consider adding features like handling incoming messages, setting up command handlers, or integrating with other services. The possibilities with Telegram bots are endless!
+
+<div align="center">
+  <iframe width="1280" height="720"
+    src="https://www.youtube.com/embed/JJLxR_6qSVM"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
